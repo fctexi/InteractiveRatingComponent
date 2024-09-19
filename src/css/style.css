@@ -1,0 +1,133 @@
+html {
+    font-size: 62.5%;
+    color: var(--text-color);
+    /* 1.6rem=16px */
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+
+.card-one, .card-two {
+    background: var(--backgrounf-window, radial-gradient(98.96% 98.96% at 50.00%, #232A34 0%, #181E27 100%));
+    width: 350px;
+    height: 360px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.rate img {
+    padding: 5%;
+    background-color: var(--star-circle);
+    border-radius: 50px;
+}
+.rate h1 {
+    font-size: 3rem;
+    padding-top: 20px;
+    color: white;
+}
+
+.rate p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.rate .rate-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate .rate-buttons .btn {
+    color: var(--text-color);
+    background-color: var(--star-circle);
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    height: 45px;
+    width: 45px;
+    font-weight: 600;
+    transition: 0.1s ease-in-out;
+}
+
+.rate .rate-buttons .btn:last-child {
+    margin-right: 0px;
+}
+
+.rate .rate-buttons .btn:hover {
+    background-color: var(--medium-grey);
+    color: white;
+    cursor: pointer;
+}
+
+.rate .rate-buttons .selected {
+    background-color: var(--accent-color);
+    color: white;
+}
+ 
+
+.rate form .submit-btn{
+    width: 100%;
+    padding-block: 10px;
+    border-radius: 50px;
+    border: none;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background-color: var(--accent-color);
+    letter-spacing: 2px;
+    transition: 0.1s ease-in-out;
+}
+
+.rate form .submit-btn:hover{
+    background-color: var(--active-stats);
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks img {
+    width: 50%;
+}
+
+.thanks .selected-rating {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    color: var(--accent-color);
+    background-color: var(--star-circle);
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+.thanks h3 {
+    font-size: 2.4rem;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.thanks p {
+    color: var(--text-color);
+    font-size: 1.27rem;
+    text-align: center;
+    line-height: 20px;
+}
+
+.non-active {
+display: none;
+}
+

@@ -1,0 +1,9 @@
+:root {
+    --accent-color: hsl(25, 97%, 53%);
+    --bg-color: hsl(216, 12%, 8%);
+    --rate-window:hsla(212, 24%, 15%, 0.997);
+    --star-circle:hsla(0, 0%, 100%, 0.036);
+    --text-color: hsl(217, 12%, 63%);
+    --active-stats: hsl(0, 0%, 100%);
+    --medium-grey: #7C8798
+}
