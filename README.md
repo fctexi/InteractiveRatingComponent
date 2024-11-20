@@ -34,4 +34,4 @@ I utilized HTML, CSS and Javascript to recreate the Interactive rating component
 
 ### Link
 
-- Solution URL: []()
+- Solution URL: [Interactive rating component Outcome](https://fctexi.github.io/InteractiveRatingComponent/)
